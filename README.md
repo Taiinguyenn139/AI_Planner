@@ -25,11 +25,18 @@
 ### **Database (if needed)**  
 - PostgreSQL / Firebase  
 
+### **Caching**  
+- 🔥 **Redis** – Caching API responses, LLM outputs, and session data.  
+- 🏎️ **Memcached** – Lightweight caching alternative for ephemeral storage.  
+
 ### **Monitoring & Logging**  
 - 📊 **Prometheus & Grafana** – Real-time performance and usage monitoring.  
 - 🔍 **ELK Stack (Elasticsearch, Logstash, Kibana)** – Centralized logging and analysis.  
 - 🎯 **Jaeger** – Distributed tracing for debugging and performance insights.  
 - 🛠️ **Sentry** – Error tracking and issue reporting.  
+
+### **Reverse Proxy & Load Balancer**  
+- 🚀 **NGINX** – Reverse proxy, load balancing, and security layer.  
 
 ### **CI/CD Pipeline**  
 - **GitHub Actions / GitLab CI** – Automate testing and deployment.  
@@ -45,6 +52,7 @@
 - [ ] **Enable Markdown and TODO list output formats**
 - [ ] **Basic logging for debugging**
 - [ ] **Set up Prometheus + Grafana for monitoring**
+- [ ] **Set up NGINX as a reverse proxy**
 - [ ] **Basic CI/CD pipeline setup (GitHub Actions)**
 
 ### **Future Enhancements**
@@ -63,3 +71,5 @@ Many developers struggle with **structuring AI projects** and **managing tasks e
 - 🔹 **Integration with GitHub/Jira** – Auto-generate GitHub Issues or Jira tasks from project plans.  
 
 ---
+
+Would you like a **Docker setup** for NGINX and Redis included? 🚀  
